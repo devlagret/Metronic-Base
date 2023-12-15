@@ -5,19 +5,19 @@ This template is specialy make for cooperative(Kopeeasi) apllication. This Templ
 ## Quick Start
 
 1. Clone The repository
-2. Generate Env
-
-        copy .env.example .env
-3. Generate Key
-
-        php artisan key:generate
-4. Install Composer Dependencies
+2.  Install Composer Dependencies
 
         composer install
-5. Install Npm Dependencies
+3. Generate Env
+
+        copy .env.example .env
+4. Generate Key
+
+        php artisan key:generate
+5. Install Npm Dependencies (Optional)
 
         npm install
-6. Build Npm Dependencies
+6. Build Npm Dependencies (Optional)
 
         npm run build
 7. Migrate The Database
